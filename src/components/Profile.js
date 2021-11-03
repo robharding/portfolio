@@ -17,7 +17,7 @@ function Profile() {
         <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
           7+
         </Heading>
-        <Text fontsize="2xl" color="gray.400">
+        <Text fontSize="2xl" color="gray.400">
           Years of Experience
         </Text>
       </Box>
