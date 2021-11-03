@@ -13,16 +13,16 @@ function Profile() {
       w="100%"
       maxWidth={{ base: "100vh", md: "130vh", lg: "130vh" }}
     >
-      <Box alignSelf="center" px="32" py="16">
+      <Box alignSelf="center" px="32" py="16" textAlign="center">
         <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
-          7+
+          5+
         </Heading>
         <Text fontSize="2xl" color="gray.400">
           Years of Experience
         </Text>
       </Box>
       <Box alignSelf="center" px="32" py="16">
-        <Text fontWeight="bold" fontSize="2xl">
+        <Text fontWeight="bold" fontSize="2xl" textAlign="center">
           Web Applications developer specialized in ReactJS and Django.
         </Text>
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8}>

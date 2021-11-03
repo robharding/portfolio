@@ -29,7 +29,7 @@ function Header() {
       >
         <Box mt={isNotSmallerScreen ? 0 : 16} alignSelf="flex-start">
           <Text fontSize="5xl" fontWeight="semibold">
-            Hi, I am
+            Hi, I'm
           </Text>
           <Text
             fontSize="7xl"
