@@ -2,7 +2,7 @@ import { Box, Flex, Heading, Text } from "@chakra-ui/layout";
 import React from "react";
 import { useMediaQuery } from "@chakra-ui/media-query";
 import Icon from "@chakra-ui/icon";
-import { DiJavascript1, DiHtml5 } from "react-icons/di";
+import { DiJavascript1, DiHtml5, DiPython } from "react-icons/di";
 
 function Profile() {
   const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
@@ -68,9 +68,9 @@ function Profile() {
             justify="flex-end"
             _hover={{ bg: "green.400", cursor: "pointer" }}
           >
-            <Icon color="white" p="4" as={DiHtml5} w="24" h="24" />
+            <Icon color="white" p="4" as={DiPython} w="24" h="24" />
             <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
-              HTML & CSS
+              Python
             </Text>
           </Flex>
         </Flex>
