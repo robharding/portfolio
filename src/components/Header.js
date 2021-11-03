@@ -1,4 +1,3 @@
-import { Button } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Image } from "@chakra-ui/image";
 import { Box, Circle, Flex, Stack, Text } from "@chakra-ui/layout";
