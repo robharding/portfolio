@@ -17,7 +17,7 @@ function App() {
   const isDark = colorMode === "dark";
 
   return (
-    <VStack p={5}>
+    <VStack p={5} overflowX="hidden">
       <Flex w="100%">
         <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">
           RH

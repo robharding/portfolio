@@ -10,7 +10,7 @@ function Social() {
   let spacing = isNotSmallerScreen ? 50 : 25;
 
   return (
-    <HStack spacing={spacing} mx={10}>
+    <HStack spacing={spacing}>
       <Icon as={FaFacebookF} boxSize={50}></Icon>
       <Icon as={FaGoogle} boxSize={50}></Icon>
       <Icon as={FaSpotify} boxSize={50}></Icon>
