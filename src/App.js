@@ -29,19 +29,21 @@ function App() {
           ml={2}
           icon={<FaLinkedin />}
           isRound="true"
-          onClick={toggleColorMode}
+          onClick={() =>
+            window.open("https://www.linkedin.com/in/robjharding/")
+          }
         ></IconButton>
         <IconButton
           ml={2}
           icon={<FaInstagram />}
           isRound="true"
-          onClick={toggleColorMode}
+          onClick={() => window.open("https://www.instagram.com/robharding__/")}
         ></IconButton>
         <IconButton
           ml={2}
           icon={<FaGithub />}
           isRound="true"
-          onClick={toggleColorMode}
+          onClick={() => window.open("https://github.com/robharding")}
         ></IconButton>
         <IconButton
           ml={2}
