@@ -7,14 +7,14 @@ import { useMediaQuery } from "@chakra-ui/media-query";
 function Social() {
   const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
 
-  let size = isNotSmallerScreen ? 10 : 8;
+  let spacing = isNotSmallerScreen ? 50 : 25;
 
   return (
-    <HStack spacing="24">
-      <Icon as={FaFacebookF} boxSize={size}></Icon>
-      <Icon as={FaGoogle} boxSize={size}></Icon>
-      <Icon as={FaSpotify} boxSize={size}></Icon>
-      <Icon as={FaShopify} boxSize={size}></Icon>
+    <HStack spacing={spacing} mx={10}>
+      <Icon as={FaFacebookF} boxSize={50}></Icon>
+      <Icon as={FaGoogle} boxSize={50}></Icon>
+      <Icon as={FaSpotify} boxSize={50}></Icon>
+      <Icon as={FaShopify} boxSize={50}></Icon>
     </HStack>
   );
 }
